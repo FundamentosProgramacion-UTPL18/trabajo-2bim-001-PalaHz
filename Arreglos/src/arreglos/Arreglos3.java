@@ -10,8 +10,9 @@ public class Arreglos3 {
           //System.out.printf("Estudiante %d\t%f\t%f",contador,calificaciones_prog[contador],calificaciones_bd[contador]);
           promedios[contador]=promedio;
       }
+      System.out.printf("Estudiante\tProgramacion\tBases de datos\tPromedio\n");
       for (int contador=0;contador <calificaciones_bd.length;contador++){
-          System.out.printf("Estudiante %d\tProgramacion: %.2f\t Bases de datos: %.2f\tPromedio: %.2f\n"
+          System.out.printf("%d\t\t%.2f\t\t%.2f\t\t%.2f\n"
           ,contador+1,calificaciones_prog[contador],calificaciones_bd[contador],promedios[contador]);
       }
     }
